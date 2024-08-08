@@ -25,13 +25,15 @@ developing a simple online chat application using Java. The application should a
 - Create a `ChatClient` class
 - Connect to the server using `Socket`
 - Create a separate thread to handle incoming messages from the server so that the user can continue typing while messages are received.
+
 *b.sending Messages*
 - Implement a method for the client to send messages to the server.
+
 *c.Receiving Messages*
 - Implement a method to continuously listen for messages from the server and display them to the user.
-- 
-    - Implement a client class, ChatClient, that connects to the server using sockets.  
-    -  Each client should be able to send messages to the server, which will broadcast the messages to all connected clients. 
-    - Clients should also be able to receive messages from other users
-### User Interface: 
-    - Include a simple text-based for the client to facilitate message input and display. 
+### User Interface:
+*a.Text-Based UI*
+- Implement a simple text-based user interface.
+- Allow the user to input their messages.
+- Display received messages in real-time.
+ 
