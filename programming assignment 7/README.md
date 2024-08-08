@@ -12,9 +12,11 @@ developing a simple online chat application using Java. The application should a
 - Create a server class, `ChatServer`, 
 - Use ServerSocket to listen for incoming client connections.
 - using socket programming to manage connections from multiple clients
+
 *b.Handle Client Connections*
 - Assign a unique user ID to each client upon connection.
 - Maintain a list of connected clients in a data structure (like a `HashMap` or `List`)
+
 *c.Broadcast Messages*
 - When a message is received from a client, broadcast it to all connected clients
 - Ensure that the server is capable of handling messages concurrently from multiple clients.
